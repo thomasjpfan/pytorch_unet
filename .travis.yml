@@ -1,14 +1,10 @@
 language: python
 python:
   - "3.6"
-before_install:
-  - wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
-  - bash miniconda.sh -b -p $HOME/miniconda
-  - export PATH="$HOME/miniconda/bin:$PATH"
-  - conda update --yes conda
 install:
-  - conda install --yes pip pytest
-  - conda install --yes pytorch torchvision -c soumith
+  - pip install http://download.pytorch.org/whl/cu75/torch-0.1.12.post2-cp36-cp36m-linux_x86_64.whl
+  - pip install torchvision
+  - pip install pytest
   - pip install -e .
 script:
   - pytest tests
