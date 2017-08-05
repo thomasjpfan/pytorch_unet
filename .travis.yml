@@ -8,7 +8,7 @@ before_install:
   - conda update --yes conda
 install:
   - conda install --yes pip pytest
-  - conda install pytorch torchvision cuda80 -c soumith
+  - conda install --yes pytorch torchvision cuda80 -c soumith
   - pip install -e .
 script:
   - pytest tests
