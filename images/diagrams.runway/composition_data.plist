@@ -30,7 +30,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyNCBcY2YyIFx1cDAgU3BsaXQgQmxv
+					ZjBcZnM0OCBcY2YyIFx1cDAgU3BsaXQgQmxv
 					Y2t9
 					</data>
 					<key>className</key>
@@ -58,7 +58,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{18, 74}, {138, 65}}</string>
+					<string>{{24, 90}, {180, 88}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -166,7 +166,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{90, 139}, {1, 45}}</string>
+					<string>{{118, 178}, {2, 61}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -276,7 +276,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{246, 116}, {-90, 0}}</string>
+					<string>{{363, 147}, {-159, 0}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -386,7 +386,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{92, 32}, {-1, 42}}</string>
+					<string>{{119, 47}, {0, 43}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -477,7 +477,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMiBcY2YyIHVwX3NoYXBlICgzMiwg
+					ZjBcZnM0MiBcY2YyIHVwX3NoYXBlICgzMiwg
 					NTYpfQ==
 					</data>
 					<key>className</key>
@@ -505,7 +505,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{46, 14}, {89, 13}}</string>
+					<string>{{47, 13}, {172, 25}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -594,7 +594,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMCBcY2YyIGluX3NoYXBlICgxNiwg
+					ZjBcZnM0MiBcY2YyIGluX3NoYXBlICgxNiwg
 					MTEyKX0=
 					</data>
 					<key>className</key>
@@ -622,7 +622,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{49, 191}, {83, 12}}</string>
+					<string>{{34, 239}, {179, 26}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -638,7 +638,7 @@
 					<key>rotationAngle</key>
 					<integer>0</integer>
 					<key>rotationHandleRadius</key>
-					<real>100</real>
+					<real>115</real>
 					<key>scaleImage</key>
 					<true/>
 					<key>stroke1Color</key>
@@ -711,8 +711,8 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMCBcY2YyIGhvcl9zaGFwZSAoMzIs
-					IDExMil9
+					ZjBcZnMzNiBcY2YyIGhvcl9zaGFwZSBcCigz
+					MiwgMTEyKX0=
 					</data>
 					<key>className</key>
 					<string>ResizeText</string>
@@ -739,7 +739,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{160, 87}, {89, 12}}</string>
+					<string>{{242, 90}, {93, 44}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -813,7 +813,20 @@
 			<key>className</key>
 			<string>Composition</string>
 			<key>connections</key>
-			<array/>
+			<array>
+				<dict>
+					<key>pointerCorner</key>
+					<integer>8</integer>
+					<key>pointerIdentifier</key>
+					<string>550C0F28-86C9-4606-9094-3DDC1B3C0537</string>
+					<key>shapeEdge</key>
+					<integer>1</integer>
+					<key>shapeIdentifier</key>
+					<string>D30E249F-F9E1-4823-8F71-BE3B6F1D1EC4</string>
+					<key>shapeRatio</key>
+					<real>0.64772727272727271</real>
+				</dict>
+			</array>
 			<key>constrainAspectRatio</key>
 			<false/>
 			<key>contentFilterSpecs</key>
@@ -837,7 +850,7 @@
 			<key>fillType</key>
 			<integer>0</integer>
 			<key>frame</key>
-			<string>{{0, 0}, {257, 214}}</string>
+			<string>{{0, 0}, {370, 280}}</string>
 			<key>gridTolerance</key>
 			<real>10</real>
 			<key>hidden</key>
@@ -857,15 +870,17 @@
 				<key>anchorSize</key>
 				<string>{0, 0}</string>
 				<key>group</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>height</key>
-				<real>214</real>
+				<real>280</real>
+				<key>name</key>
+				<string>Custom</string>
 				<key>resolution</key>
 				<real>72</real>
 				<key>unitType</key>
 				<integer>0</integer>
 				<key>width</key>
-				<real>257</real>
+				<real>370</real>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -878,7 +893,7 @@
 			<key>scaleImage</key>
 			<true/>
 			<key>scrollCenterPoint</key>
-			<string>{129.33333333333334, 107}</string>
+			<string>{184.5, 140}</string>
 			<key>stroke1Color</key>
 			<string></string>
 			<key>stroke1Enabled</key>
@@ -932,7 +947,7 @@
 			<key>userSetTitle</key>
 			<false/>
 			<key>zoomScaleIndex</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>adjustmentRatioX</key>
@@ -960,7 +975,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyNCBcY2YyIFx1cDAgTWVyZ2UgQmxv
+					ZjBcZnM0OCBcY2YyIFx1cDAgTWVyZ2UgQmxv
 					Y2t9
 					</data>
 					<key>className</key>
@@ -988,7 +1003,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{99, 69}, {138, 65}}</string>
+					<string>{{141, 93}, {201, 88}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -1096,7 +1111,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{171, 176}, {1, -42}}</string>
+					<string>{{246, 237}, {1, -57}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -1206,7 +1221,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{98, 104}, {-90, 0}}</string>
+					<string>{{140, 140}, {-131, 0}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -1316,7 +1331,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{172, 69}, {0, -44}}</string>
+					<string>{{248, 93}, {0, -60}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -1407,7 +1422,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMiBcY2YyIGluX3NoYXBlICgzMiwg
+					ZjBcZnM0MCBcY2YyIGluX3NoYXBlICgzMiwg
 					NTYpIG9yICg2NCwgNTYpfQ==
 					</data>
 					<key>className</key>
@@ -1435,7 +1450,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{98, 8}, {139, 13}}</string>
+					<string>{{84, 10}, {258, 23}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -1451,7 +1466,7 @@
 					<key>rotationAngle</key>
 					<integer>0</integer>
 					<key>rotationHandleRadius</key>
-					<real>100</real>
+					<real>115</real>
 					<key>scaleImage</key>
 					<true/>
 					<key>stroke1Color</key>
@@ -1524,7 +1539,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMiBcY2YyIG91dF9zaGFwZSAoMTYs
+					ZjBcZnMzOCBcY2YyIG91dF9zaGFwZSAoMTYs
 					IDExMikgb3IgKDMyLCAxMTIpfQ==
 					</data>
 					<key>className</key>
@@ -1552,7 +1567,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{93, 179}, {157, 13}}</string>
+					<string>{{89, 241}, {272, 21}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -1568,7 +1583,7 @@
 					<key>rotationAngle</key>
 					<integer>0</integer>
 					<key>rotationHandleRadius</key>
-					<real>100</real>
+					<real>160</real>
 					<key>scaleImage</key>
 					<true/>
 					<key>stroke1Color</key>
@@ -1641,8 +1656,8 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMCBcY2YyIGhvcl9zaGFwZSAoMzIs
-					IDExMil9
+					ZjBcZnMzNCBcY2YyIGhvcl9zaGFwZVwKKDMy
+					LCAxMTIpfQ==
 					</data>
 					<key>className</key>
 					<string>ResizeText</string>
@@ -1669,7 +1684,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{6, 76}, {89, 12}}</string>
+					<string>{{22, 86}, {80, 40}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -1767,7 +1782,7 @@
 			<key>fillType</key>
 			<integer>0</integer>
 			<key>frame</key>
-			<string>{{0, 0}, {261, 201}}</string>
+			<string>{{0, 0}, {370, 280}}</string>
 			<key>gridTolerance</key>
 			<real>10</real>
 			<key>hidden</key>
@@ -1787,15 +1802,17 @@
 				<key>anchorSize</key>
 				<string>{0, 0}</string>
 				<key>group</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>height</key>
-				<real>201</real>
+				<real>280</real>
+				<key>name</key>
+				<string>Custom</string>
 				<key>resolution</key>
 				<real>72</real>
 				<key>unitType</key>
 				<integer>0</integer>
 				<key>width</key>
-				<real>261</real>
+				<real>370</real>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -1808,7 +1825,7 @@
 			<key>scaleImage</key>
 			<true/>
 			<key>scrollCenterPoint</key>
-			<string>{130.5, 100.5}</string>
+			<string>{184.5, 140}</string>
 			<key>stroke1Color</key>
 			<string></string>
 			<key>stroke1Enabled</key>
@@ -1862,7 +1879,7 @@
 			<key>userSetTitle</key>
 			<false/>
 			<key>zoomScaleIndex</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>adjustmentRatioX</key>
@@ -1890,7 +1907,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyNCBcY2YyIFx1cDAgRmluYWwgQmxv
+					ZjBcZnM0OCBcY2YyIFx1cDAgRmluYWwgQmxv
 					Y2t9
 					</data>
 					<key>className</key>
@@ -1918,7 +1935,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{28, 69}, {138, 65}}</string>
+					<string>{{36, 91}, {193, 89}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -2026,7 +2043,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{100, 176}, {1, -42}}</string>
+					<string>{{137, 216}, {0, -36}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -2136,7 +2153,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{101, 69}, {0, -44}}</string>
+					<string>{{137, 91}, {0, -60}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -2227,7 +2244,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMCBcY2YyIGluX3NoYXBlICgxNiwg
+					ZjBcZnMzOCBcY2YyIGluX3NoYXBlICgxNiwg
 					MjI0KX0=
 					</data>
 					<key>className</key>
@@ -2255,7 +2272,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{59, 9}, {83, 12}}</string>
+					<string>{{58, 9}, {159, 22}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -2344,8 +2361,8 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMiBcY2YyIG91dF9zaGFwZSAobnVt
-					X2NsYXNzZXMsIGlucHV0X3NpemUpfQ==
+					ZjBcZnMzMiBcY2YyIG91dF9zaGFwZSBcCihu
+					dW1fY2xhc3NlcywgaW5wdXRfc2l6ZSl9
 					</data>
 					<key>className</key>
 					<string>ResizeText</string>
@@ -2372,7 +2389,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{9, 179}, {182, 13}}</string>
+					<string>{{36, 224}, {195, 41}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -2388,7 +2405,7 @@
 					<key>rotationAngle</key>
 					<integer>0</integer>
 					<key>rotationHandleRadius</key>
-					<real>115</real>
+					<real>145</real>
 					<key>scaleImage</key>
 					<true/>
 					<key>stroke1Color</key>
@@ -2470,7 +2487,7 @@
 			<key>fillType</key>
 			<integer>0</integer>
 			<key>frame</key>
-			<string>{{0, 0}, {199, 201}}</string>
+			<string>{{0, 0}, {274, 275}}</string>
 			<key>gridTolerance</key>
 			<real>10</real>
 			<key>hidden</key>
@@ -2492,13 +2509,13 @@
 				<key>group</key>
 				<integer>1</integer>
 				<key>height</key>
-				<real>201</real>
+				<real>275</real>
 				<key>resolution</key>
 				<real>72</real>
 				<key>unitType</key>
 				<integer>0</integer>
 				<key>width</key>
-				<real>199</real>
+				<real>274</real>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -2511,7 +2528,7 @@
 			<key>scaleImage</key>
 			<true/>
 			<key>scrollCenterPoint</key>
-			<string>{99.5, 100.5}</string>
+			<string>{136.5, 137}</string>
 			<key>stroke1Color</key>
 			<string></string>
 			<key>stroke1Enabled</key>
@@ -2565,7 +2582,7 @@
 			<key>userSetTitle</key>
 			<false/>
 			<key>zoomScaleIndex</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>adjustmentRatioX</key>
@@ -2593,7 +2610,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyNCBcY2YyIFx1cDAgQ2VudGVyfQ==
+					ZjBcZnM0OCBcY2YyIFx1cDAgQ2VudGVyfQ==
 					</data>
 					<key>className</key>
 					<string>Rectangle</string>
@@ -2620,7 +2637,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{89, 17}, {138, 65}}</string>
+					<string>{{112, 17}, {177, 106}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -2728,7 +2745,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{89, 64}, {-79, 0}}</string>
+					<string>{{112, 94}, {-102, 0}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -2819,7 +2836,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMCBcY2YyIGluICgxMjgsIDcpfQ==
+					ZjBcZnMzNiBcY2YyIGluIFwKKDEyOCwgNyl9
 					</data>
 					<key>className</key>
 					<string>ResizeText</string>
@@ -2846,7 +2863,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{24, 30}, {45, 12}}</string>
+					<string>{{30, 26}, {62, 44}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -2954,7 +2971,7 @@
 					<key>flipped</key>
 					<false/>
 					<key>frame</key>
-					<string>{{306, 64}, {-79, 0}}</string>
+					<string>{{391, 94}, {-102, 0}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -3045,8 +3062,8 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnMyMCBcY2YyIG91dCAoMTI4LCA3KSBv
-					clwKKDI1NiwgOCl9
+					ZjBcZnMzMiBcY2YyIG91dCBcCigxMjgsIDcp
+					IG9yXAooMjU2LCA3KX0=
 					</data>
 					<key>className</key>
 					<string>ResizeText</string>
@@ -3073,7 +3090,7 @@
 					<key>fillType</key>
 					<integer>0</integer>
 					<key>frame</key>
-					<string>{{251, 17}, {63, 24}}</string>
+					<string>{{310, 17}, {76, 61}}</string>
 					<key>hidden</key>
 					<false/>
 					<key>identifier</key>
@@ -3171,7 +3188,7 @@
 			<key>fillType</key>
 			<integer>0</integer>
 			<key>frame</key>
-			<string>{{0, 0}, {321, 91}}</string>
+			<string>{{0, 0}, {413, 137}}</string>
 			<key>gridTolerance</key>
 			<real>10</real>
 			<key>hidden</key>
@@ -3193,13 +3210,13 @@
 				<key>group</key>
 				<integer>1</integer>
 				<key>height</key>
-				<real>91</real>
+				<real>137</real>
 				<key>resolution</key>
 				<real>72</real>
 				<key>unitType</key>
 				<integer>0</integer>
 				<key>width</key>
-				<real>321</real>
+				<real>413</real>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -3212,7 +3229,7 @@
 			<key>scaleImage</key>
 			<true/>
 			<key>scrollCenterPoint</key>
-			<string>{160.5, 45.5}</string>
+			<string>{206.5, 68}</string>
 			<key>stroke1Color</key>
 			<string></string>
 			<key>stroke1Enabled</key>
@@ -3266,7 +3283,7 @@
 			<key>userSetTitle</key>
 			<false/>
 			<key>zoomScaleIndex</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>adjustmentRatioX</key>
@@ -6308,7 +6325,7 @@
 					MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2
 					MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1
 					cmFsXHFjXHBhcnRpZ2h0ZW5mYWN0b3IwCgpc
-					ZjBcZnM0MiBcY2YyIFx1cDAgTGF5ZXIgMH0=
+					ZjBcZnM0MCBcY2YyIExheWVyIDB9
 					</data>
 					<key>className</key>
 					<string>ResizeText</string>
@@ -6907,7 +6924,7 @@
 			<key>scaleImage</key>
 			<true/>
 			<key>scrollCenterPoint</key>
-			<string>{248, 302}</string>
+			<string>{247.5, 334}</string>
 			<key>stroke1Color</key>
 			<string></string>
 			<key>stroke1Enabled</key>

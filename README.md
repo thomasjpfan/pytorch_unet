@@ -111,7 +111,7 @@ two inputs and outputs one signal.
 
 The final block has one input and one output:
 
-![Final Block](images/final.png)
+![Final Block](images/final_block.png)
 
 The default final block just has a single convolution layer:
 
