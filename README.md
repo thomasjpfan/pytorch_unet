@@ -20,7 +20,7 @@ pip install git+https://github.com/thomasjpfan/pytorch_unet.git
 The UNet architecture, introduced in this [paper](link), has the following 
 structure:
 
-<p align=center><img width="80%" src="images/unet.png" /></p>
+![UNet](images/unet.png)
 
 The primary use for a `UNet` is to perform segmentation. In the above case, the 
 UNet is used to detect cancerous regions in the input image. There are four 
@@ -50,7 +50,7 @@ I will use the short hand, `(features, size)`, in my diagrams to denote the shap
 
 The split block has two outputs and one input:
 
-<p align=center><img width="80%" src="images/split_block.png" /></p>
+![Split Block](images/split_block.png)
 
 The shapes of the outputs are calculated for you, all you have to do is 
 provide your custom implementation of the split block. For reference, here is 
@@ -73,7 +73,7 @@ initialization.
 
 The center block has one input and one output:
 
-<p align=center><img width="80%" src="images/center_block.png" /></p>
+![Center Block](images/center_block.png)
 
 This block does not change the size of the signal, only the number of features change. Thus the default `center_block` implementation just needs the feature number:
 
@@ -91,7 +91,7 @@ If `double_center_features` from `UNet` initialization is `True`, `out_feats` is
 
 The merge block has two inputs and one output:
 
-<p align=center><img width="80%" src="images/merge_block.png" /></p>
+![Merge Block](images/merge_block.png)
 
 The default implementation of this block is:
 
@@ -111,7 +111,7 @@ two inputs and outputs one signal.
 
 The final block has one input and one output:
 
-<p align=center><img width="80%" src="images/final.png" /></p>
+![Final Block](images/final.png)
 
 The default final block just has a single convolution layer:
 
