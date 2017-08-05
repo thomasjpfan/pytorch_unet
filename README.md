@@ -20,7 +20,7 @@ pip install git+https://github.com/thomasjpfan/pytorch_unet.git
 The UNet architecture, introduced in this [paper](link), has the following 
 structure:
 
-![UNet](images/unet.png)
+![UNet](images/unet_arch.png)
 
 The primary use for a `UNet` is to perform segmentation. In the above case, the 
 UNet is used to detect cancerous regions in the input image. There are four 
