@@ -58,6 +58,7 @@ the default `split_block` implementation:
 
 ```python
 class SplitBlock(nn.Module):
+
     def __init__(self, in_shape, up_shape, hor_shape, layer):
         ...
 
@@ -79,6 +80,7 @@ This block does not change the size of the signal, only the number of features c
 
 ```python
 class CenterBlock(nn.Module):
+
     def __init__(self, in_feats, out_feats):
         ...
 
@@ -97,6 +99,7 @@ The default implementation of this block is:
 
 ```python
 class MergeBlock(nn.Module):
+
     def __init__(self, in_shape, out_shape, hor_shape, layer):
         ...
 
@@ -116,9 +119,11 @@ The final block has one input and one output:
 The default final block just has a single convolution layer:
 
 ```python
-class FinalBlock(nn.Module)
+class FinalBlock(nn.Module):
+
     def __init__(self, in_feats, out_feats):
         self.layer = nn.Conv2d(in_feats, out_feats, kernel_size=1)
+
     def forward(self, x):
         return self.layer(x)
 ```
