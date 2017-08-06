@@ -1,6 +1,6 @@
 # Hassle Free UNet Implementation
 
-[![Build Status](https://travis-ci.org/thomasjpfan/pytorch_unet.svg?branch=master)](https://travis-ci.org/thomasjpfan/pytorch_unet)
+[![Build Status](https://travis-ci.org/thomasjpfan/pytorch_unet.svg?branch=master)](https://travis-ci.org/thomasjpfan/pytorch_unet) [![Coverage Status](https://coveralls.io/repos/github/thomasjpfan/pytorch_unet/badge.svg?branch=master)](https://coveralls.io/github/thomasjpfan/pytorch_unet?branch=master)
 
 Constructing a `UNet` requires you to keep track of every signal size that flow through the UNet. This can lead to size mismatches when constructing the 
 neutral network. To remedy this issue, I created a small PyTorch UNet module 
