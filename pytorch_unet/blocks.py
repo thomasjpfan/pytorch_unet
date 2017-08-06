@@ -74,8 +74,7 @@ class MergeBlock(nn.Module):
         up = self.deconv(up)
         hor = self.highway(hor)
         out = F.elu(up + hor, inplace=True)
-        stuff = self.layers(out)
-        return stuff
+        return self.layers(out)
 
 
 class FinalBlock(nn.Module):

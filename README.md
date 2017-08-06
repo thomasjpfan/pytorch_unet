@@ -64,7 +64,7 @@ class SplitBlock(nn.Module):
 
     def forward(self, x):
         ...
-        return self.max_pool(hw), hw
+        return self.max_pool(hor), hor
 ```
 
 The extra `layer` index is passed in, just in case you want to adjust the block for different layers. To create your custom implementation, just copy the `SplitBlock` implementation and change the bodies of `__init__` and `forward`. Make sure that the `forward` call returns two values, the first being the `up` signal and second being the `hor` signal. The parameters `{}_shape` uses the convention `(features, size)`. You can use these parameters to perform assertions on the signal shapes during 
