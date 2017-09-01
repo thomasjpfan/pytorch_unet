@@ -10,7 +10,7 @@ setup(
     version='0.1.0',
     author='Thomas Fan',
     author_email='thomasjpfan@gmail.com',
-    url='https://github.come/thomasjpfan/pytorch-unet',
+    url='https://github.com/thomasjpfan/pytorch_unet',
     description='Highly Customizable UNet Implementation',
     license='MIT',
     packages=find_packages(),
